@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.container{
+    min-width: 400px;
+    background: #176B87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.box{
+    min-height: 500px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+form{
+    width: 100%;
+    padding: 20px 20px;
+    position: absolute;
+    top: 0;
+    transition: 0.8s;
+}
+.full-name{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 35px;
+    color: #fff;
+    margin:0px 0px 40px 0px;
+    text-align: center;
+}
+.fname{
+    height: 100%;
+    width: 49%;
+    background: #fff;
+    border-radius: 5px;
+}
+.lname{
+    height: 100%;
+    width: 49%;
+    background: #fff;
+    border-radius: 5px;
+}
+.email-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.n-password{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.con-password{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.check-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:10px 0px 10px 0px;
+}
+
+.signup-btn{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.agri{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.forget-password-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+.check-box input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.form1{
+    left: 0%;
+}
+.form2{
+    margin-top: 50px;
+    left:100%;
+}
+span{
+    color: #fff;
+    margin-right: 10px;
+}
+button{
+    height: 100%;
+    width: 80%;
+    background: #B4D4FF;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    color: #176B87;
+}
+b{
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    color: #fff;
+}
