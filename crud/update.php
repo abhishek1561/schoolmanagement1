@@ -25,7 +25,7 @@
             $password=$row['Password'];
         }
     }
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -236,3 +236,6 @@
     </section> 
 </body>
 </html>
+<?php }else{
+    header('Location:read.php');
+}?>

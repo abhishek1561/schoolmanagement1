@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* -------------------Header Start----------------------- */
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(115, 175, 221);
+}
+.contect{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect1{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect2{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect3{
+    height: 30px;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.contect3 a{
+    background: #00f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contect3 a:hover{
+    color: #00f;
+    background: #fff;
+
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(212, 213, 216);
+}
+a:hover{
+    color:antiquewhite;
+}
+.social-contect{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect:hover a{
+    color: rgb(251, 252, 252);
+}
+
+.social-contect1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect1:hover a{
+    color: rgb(251, 252, 252);
+}
+.social-contect2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect2:hover a{
+    color: rgb(251, 252, 252);
+}
+.facebook{
+    background: rgb(69, 69, 248);
+}
+.instagram{
+    background: rgb(201, 7, 94);
+}
+.youtube{
+    background: #f00;
+}
+/* -------------------Header End------------------------- */
+
+/* -----------------------Logo Section Start------------------------------------- */
+.container{
+    height: 160px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 130px;
+    width: 180px;
+    background: #fff;
+    display: flex;
+    
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.logo1{
+    height: 130px;
+    width: 180px;
+    background: #fff;
+    display: flex;
+    
+}
+.logo1 img{
+    height: 100%;
+    width: 100%;
+}
+.schoolname{
+    height: 100%;
+    width: 80%;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.schoolname h1{
+    font-size: 60px;
+    color: #00f;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.schoolname h2{
+    font-size: 40px;
+    color: #f00;
+    text-align: center;
+    line-height: 0%;
+}
+/* --------------------------Logo Section End-------------------------------------- */
+
+/* ---------------------------------Landing Section Start------------------------------------------- */
+.manubar{
+    height: 50px;
+    width: 100%;
+    background: rgb(59, 80, 238);
+    border-top: 0.5px;
+    border-bottom: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type:none;
+    display: block;
+}
+li{
+    float: left;
+    color: #00f;
+}
+li:hover{
+    background: #fff;
+    color: rgb(73, 93, 246);
+}
+.link{
+    padding: 15px 25px;
+    color: #fff;
+}
+li:hover a{
+    background: #fff;
+    color: rgb(73, 93, 246);
+}
+.home{
+    background: #fff;
+    color: rgb(73, 93, 246);
+}
+.home{
+    border-right: 0.5px solid rgb(73, 93, 246) !important;
+}
+
+/* ------------------------Manu Box Start----------------------------------- */
+.manubar1{
+    height: 50px;
+    width: 100%;
+    background: rgb(202, 198, 198);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    display: none;
+}
+.manudiv{
+    height: 40px;
+    width: 50px;
+    background-image: url("../images/menu.png");
+    background-size: cover;
+    display: none;
+    border-radius: 5px;
+
+}
+.manudiv img{
+    height: 100%;
+    width: 100%;
+}
+/* ------------------------Manu Box End----------------------------------- */
+/* ------------------------------Dropdown manu---------------------------------- */
+
+/* ---------------------------------Landing Section End------------------------------------------- */
+
+/*----------------------------slider Section start-----------------------------------------*/
+.slider-section{
+    height: 60vh;
+    width: 100%;
+    margin: none;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    background-color: #7682f4;
+    
+}
+.slide img{
+    height: 100%;
+    width: 100%;
+}
+/* ------------------------Slider Section End-------------------------------------------- */
+/* ---------------------------------Notifications/ Announcements Start-------------------------------------- */
+.announcements{
+    min-height: 160px;
+    width: 80%;
+    padding: 40px 0px;
+    margin: 20px 10px;
+}
+.announcements h1{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    line-height: 100px;
+}
+b{
+    font-weight: bolder;
+}
+.notic{
+    min-height: 100px;
+    width: 100%;
+    border-top: 2px solid rgb(59, 153, 216);
+    padding-top: 10px;
+}
+.notic a{
+    color: #000;
+}
+/* -------------------------------Notifications/ Announcements End ------------------------------------ */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/*-------------------------------------------------footer Section Start------------------------------------------------*/
+footer{
+    padding: 60px 150px 0px 150px;
+    background-color: aqua;
+}
+.footer-box{
+    min-height: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.footer-box::after{
+    content: " ";
+    position: absolute;
+    height: .1%;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
+    right: 0;
+}
+.footer-content-box{
+    min-height: 310px;
+    width: 23%;
+
+}
+.footer-content-box .footer-img{
+    height: 100%;
+    width: 100%;
+    transition: .2s;
+    margin-top: 30px;
+}
+.footer-content-box .footer-img:hover{
+    transform: scale(1.05);
+}
+.footer-content-box .para-educator{
+    margin: 8% 0% 16% 0%;
+    line-height: 24px;
+}
+.footer-content-box .footer-contact li{
+    list-style: none;
+    margin: 5% 0%;
+}
+.footer-content-box .footer-contact li a{
+    text-decoration: none;
+    color:#000;   
+    font-weight: bold;
+}
+.footer-content-box .footer-contact li a span{
+    margin-right: 5%;
+}
+.footer-latest-new li{
+    list-style: none;
+    margin: 8% 0% 2% 0%;
+    
+}
+.footer-latest-new p{
+    font-size: 14px;
+}
+.footer-latest-new li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+.useful-links li{
+    list-style: none;
+    margin: 8% 0% 0% 0%;
+}
+.useful-links li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.footer-map li{
+    list-style: none;
+}
+.footer-map li a{
+    text-decoration: none;
+}
+.copy-right{
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy-right-box{
+    min-height: 20px;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-right-box .all-right{
+    font-size: 12px;
+    font-weight: bold;
+}
+.copy-right-box a{
+    text-decoration: none;
+    color: #000;
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+.copy-right-box p{
+    margin: 0% 5% 0% 0%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.copy-right-logo{
+    display: flex;
+}
+.copy-right-logo li{
+    list-style: none;
+    padding-left: 15%;
+}
+.copy-right-logo li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px)
+{
+    footer
+    {
+        padding: 20px 70px;
+    }
+    .footer-content-box
+    {
+        margin-bottom: 3%;
+        width: 31%;
+
+    }
+    .footer-box::after{
+        content: " ";
+        position: absolute;
+        height: .1%;
+        width: 100%;
+        background-color: #000;
+        bottom: 20px;
+        right: 0;
+    }
+    
+}
+@media screen and (max-width:768px)
+{
+    footer
+    {
+        padding: 20px 80px;
+    }
+    .footer-content-box{
+        
+        margin-bottom: 3%;
+        width: 80%;
+    }
+    .footer-content-box:nth-child(2){
+        padding-left: 60px;
+    }.footer-content-box:nth-child(3){
+        padding-left: 60px;
+    }
+    .footer-box::after{
+        content: " ";
+        position: absolute;
+        height: .1%;
+        width: 100%;
+        background-color: #000;
+        bottom: 10px;
+        right: 0;
+    }
+    .copy-right-box{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .copy-right-box p{
+        margin: 0% 5% 0% 0%;
+    }
+    .copy-right-box a{
+        margin: 0%;
+    }
+    
+}
+@media screen and (max-width:600px)
+{
+    footer
+    {
+        padding: 20px 60px;
+    }
+    .footer-content-box
+    {
+        margin-bottom: 5%;
+        width: 98%;
+    }
+    .footer-box::after{
+        content: " ";
+        position: absolute;
+        height: .01%;
+        width: 100%;
+        background-color: #000;
+        bottom: 10px;
+        right: 0;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------Media Query Code Start------------------------------ */
+@media screen and (max-width: 1224px){
+    .link{
+        padding: 15px 15px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .link{
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .link{
+        padding: 15px 15px;
+    }
+}
+@media screen and (max-width: 980px){
+    .link{
+        padding: 15px 12px;
+        font-size: 12;
+    }
+}
+@media screen and (max-width: 950px){
+    .link{
+        padding: 15px 10px;
+    }
+}
+@media screen and (max-width: 880px){
+    ul{
+        display: none;
+    }
+    .manubar1{
+        display: flex;
+    }
+    .manudiv{
+        display: flex;
+    }
+}
+@media screen and (max-width: 860px){
+    .schoolname{
+        padding: 20px 0px;
+        background: #fff;
+    }
+    .schoolname h1{
+        font-size: 40px;
+        color: #00f;
+        text-align: center;
+        
+    }
+    .schoolname h2{
+        font-size: 25px;
+        color: #f00;
+        text-align: center;
+        line-height: 0%;
+    }
+    .logo1{
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    .contect1{
+        display: none;
+    }
+    .schoolname{
+        width:100%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo1{
+        display: none;
+    }
+}

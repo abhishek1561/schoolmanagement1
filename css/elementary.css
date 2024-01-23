@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* -------------------Header Start----------------------- */
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(115, 175, 221);
+}
+.contect{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect1{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect2{
+    height: 30px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(212, 213, 216);
+}
+a:hover{
+    color:antiquewhite;
+}
+.social-contect{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect:hover a{
+    color: rgb(251, 252, 252);
+}
+
+.social-contect1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect1:hover a{
+    color: rgb(251, 252, 252);
+}
+.social-contect2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #00f;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-contect2:hover a{
+    color: rgb(251, 252, 252);
+}
+.facebook{
+    background: rgb(69, 69, 248);
+}
+.instagram{
+    background: rgb(201, 7, 94);
+}
+.youtube{
+    background: #f00;
+}
+/* -------------------Header End------------------------- */
+
+/* -----------------------Logo Section Start------------------------------------- */
+.container{
+    height: 160px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    background: #fff;
+    display: flex;
+    
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.logo1{
+    height: 150px;
+    width: 200px;
+    background: #fff;
+    display: flex;
+    
+}
+.logo1 img{
+    height: 100%;
+    width: 100%;
+}
+.schoolname{
+    height: 100%;
+    width: 80%;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.schoolname h1{
+    font-size: 60px;
+    color: #00f;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.schoolname h2{
+    font-size: 40px;
+    color: #f00;
+    text-align: center;
+    line-height: 0%;
+}
+/* --------------------------Logo Section End-------------------------------------- */
+
+.hint{
+    height: 50px;
+    width: 100%;
+    background: rgba(134, 150, 155,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hint a{
+    color: #00f;
+}
+/* -------------------------------------About Section Start---------------------------------------------------------------------------- */
+
+.about-section{
+    min-height: 400px;
+    width: 80%;
+}
+.about-box1{
+    min-height: 300px;
+    width: 100%;
+}
+.about-box1-heading{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about-box1-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 150px;
+    color: rgb(141, 135, 135);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-box2{
+    min-height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-sub-box2{
+    height: 450px;
+    width: 32%;
+}
+.about-sub1-box2{
+    height: 250px;
+    width: 100%;
+}
+.about-sub2-box2{
+    height: 200px;
+    width: 100%;
+
+}
+.about-sub1-box2 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.about-sub2-box2 h1{
+    color: black;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.about-sub2-box2 p{
+    line-height: 25px;
+    color: rgb(141, 135, 135);
+}
+.about-sub2-box2 a{
+    line-height: 70px;
+}
+.about-sub2-box2 a i{
+    display: none;
+}
+.about-sub2-box2 a:hover{
+    color: #00f;
+    transform: scale(5);
+}
+.about-sub2-box2 a:hover i{
+    display: visible;
+}
+
+/* -------------------------------------About Section End---------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------------Media Query Code Start------------------------------ */
+@media screen and (max-width: 1224px){
+
+}
+@media screen and (max-width: 1080px){
+    
+}
+@media screen and (max-width: 1024px){
+    .about-box1-paragraph{
+        padding: 0px 100px;
+    }
+    .about-sub-box2{
+        width: 49%;
+    }
+}
+@media screen and (max-width: 980px){
+   
+}
+@media screen and (max-width: 950px){
+   
+}
+@media screen and (max-width: 880px){
+   
+}
+@media screen and (max-width: 860px){
+    .schoolname{
+        padding: 20px 0px;
+        background: #fff;
+    }
+    .schoolname h1{
+        font-size: 40px;
+        color: #00f;
+        text-align: center;
+        
+    }
+    .schoolname h2{
+        font-size: 25px;
+        color: #f00;
+        text-align: center;
+        line-height: 0%;
+    }
+    .logo1{
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    .contect1{
+        display: none;
+    }
+    .schoolname{
+        width:100%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo1{
+        display: none;
+    }
+}

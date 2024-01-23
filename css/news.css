@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hint-section{
+    width: 100%;
+    background: rgba(255,0,0,0.3);
+}
+.hint{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hint a{
+    text-decoration: none;
+    color: #f00;
+    font-size: 25px;
+}
+.container1{
+    min-height: 500px;
+    width: 80%;
+}
+.new-video{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 40px;
+    color: #f00;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    min-height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-box{
+    height: 400px;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+.container-box1{
+    height: 400px;
+    width: 45%;
+    margin-top: 20px;
+    padding: 40px 40px 40px 20px;
+    font-size: 25px;
+    line-height: 30px;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(255,0,0,0.6);
+    border-radius: 20px;
+}
+img:hover{
+    transform: scale(1.01);
+}
+.container-box1 h4 a{
+    text-decoration: none;
+    color: rgba(255,0,0,0.6);
+    line-height: 40px;
+}
+.container-lalest-new{
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.latest-new-heading{
+    width: 100%;
+    height: 50px;
+    background: rgba(255,0,0,0.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+.latest-new{
+    width: 100%;
+    height: 400px;
+    padding: 30px 50px;
+    background: rgba(255,0,0,0.2);
+    border-radius: 0px 0px 40px 40px;
+}
+marquee{
+    height: 100%;
+}
+b{
+    line-height: 40px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .container-box{
+        width: 80%;
+        padding: 0%;
+    }
+    .container-box1{
+        width: 80%;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:525px){
+    .hint a{
+        font-size: 20px;
+    }
+    .hint h1{
+        display: none;
+    }
+}

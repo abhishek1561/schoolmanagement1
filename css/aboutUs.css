@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstSeciton{
+    background-image: url("../images/college3.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(1px);
+    position: relative;
+}
+.firstSeciton-box{
+    height: 100px;
+    width: 300px;
+    display: inline;
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+.firstSeciton-box h1{
+    font-size: 80px;
+    color: #fff;
+}
+.container{
+    min-height: 500px;
+    width: 80%;
+    padding-top: 40px;
+}
+.container h1{
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+}
+.container p{
+    font-size: 25px;
+    margin: 0px 180px 0px 180px;
+    text-align: center;
+    line-height: 30px;
+}
+.Service{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0px;
+}
+.services{
+    height: 380px;
+    width: 28%;
+    background: #f00;
+}
