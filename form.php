@@ -59,9 +59,6 @@
             </div>
         </div>
     </section>
-    <section>
-        
-    </section>
 <script type="text/javascript">
     const forms=document.querySelectorAll('form');
     const signinToForm2=()=>{

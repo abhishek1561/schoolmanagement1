@@ -17,18 +17,18 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    filter: blur(1px);
-    position: relative;
 }
 .firstSeciton-box{
-    height: 100px;
-    width: 300px;
-    display: inline;
-    position: absolute;
-    top:30%;
-    left:40%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: rgba(0,0,0,0.3);
+    justify-content: center;
+    align-items: center;
+    
 }
 .firstSeciton-box h1{
+    text-align: center;
     font-size: 80px;
     color: #fff;
 }
@@ -50,15 +50,111 @@ section{
     line-height: 30px;
 }
 .Service{
-    min-height: 350px;
+    min-height: 400px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 80px 0px;
+    flex-wrap: wrap;
 }
 .services{
     height: 380px;
     width: 28%;
+    
+}
+.services-part{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.services-part:hover{
+    align-items: flex-start;
+}
+.services-part1{
+    height: 50%;
+    width: 100%;
+    padding-top: 20px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.services-part1 h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.services-part1 h2 a{
+    color: #000;
+    text-decoration: none;
+}
+.services-part1 h2 a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+.noti-mail{
+    color: #000;
+    text-align: center !important;
+    margin: 0% !important;
+    font-size: 22px !important;
+}
+h3{
+    color: aqua;
+    text-align: center;
+}
+.research-box{
+    min-height: 400px;
+    width: 100%;
     background: #f00;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1080px){
+    .container p{
+        font-size: 25px;
+        margin: 0px 100px 0px 100px;
+    }
+}
+@media screen and (max-width:950px){
+    .services{
+        width: 40%;
+    }
+}
+@media screen and (max-width:880px){
+    .services{
+        width: 45%;
+    }
+}
+@media screen and (max-width:768px){
+    .container p{
+        font-size: 25px;
+        margin: 0px 80px 0px 80px;
+    }
+    .services{
+        width: 49%;
+    }
+}
+@media screen and (max-width:600px){
+    .container p{
+        font-size: 25px;
+        margin: 0px 50px 0px 50px;
+    }
+    .services{
+        width: 80%;
+    }
 }
