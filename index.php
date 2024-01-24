@@ -91,12 +91,11 @@
     <!-- ---------------------------- Notifications / Announcements End---------------------------------- -->
     <!--  -->
     <!------------------------------footer Section Start---------------------------------------->
-    <section>
-        <footer>
-            <div class="footer-box">
+    <footer>
+        <div class="container">
                 <div class="footer-content-box">
                     <h2>
-                        Educate
+                        About 
                     </h2>
                     <p class="para-educator">Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to
                         Home
@@ -159,8 +158,8 @@
                     </ul>
                 </div>
             </div>
-        </footer>
-    </section>
+        </div>    
+    </footer>
 <!-- -----------------------------------------Footer Section End---------------------------------------- -->
     <script src="js/all.min.js"></script>
     <script>

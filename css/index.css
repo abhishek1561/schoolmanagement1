@@ -5,6 +5,14 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+:root {
+    --primaryColor: #50623A;
+    --secondaryColor: #294B29;
+    --primaryTextColor: #dcf4ff;
+    --secondaryTextColor: #c3b8ff;
+    --bg: #DBE7C9;
+    --nav: #2e3440;
+}
 /* -------------------Header Start----------------------- */
 header{
     height: 50px;
@@ -15,7 +23,7 @@ header{
     z-index: 1;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(115, 175, 221);
+    background: var(--primaryColor);
 }
 .contect{
     height: 30px;
@@ -47,15 +55,15 @@ header{
     padding: 20px;
 }
 .contect3 a{
-    background: #00f;
-    color: #fff;
+    background: var(--primaryTextColor);
+    color: var(--primaryColor);
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
 }
 .contect3 a:hover{
-    color: #00f;
-    background: #fff;
+    color: var(--primaryColor);
+    background: var( --bg);
 
 }
 section{
@@ -66,33 +74,25 @@ section{
 }
 a{
     text-decoration: none;
-    color: rgb(212, 213, 216);
+    color: var(--primaryTextColor);
 }
 a:hover{
-    color:antiquewhite;
+    color:var(--bg);
 }
 .social-contect{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: #00f;
-    color: aliceblue;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.social-contect:hover a{
-    color: rgb(251, 252, 252);
-}
-
 .social-contect1{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: #00f;
-    color: aliceblue;
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -100,14 +100,14 @@ a:hover{
 
 }
 .social-contect1:hover a{
-    color: rgb(251, 252, 252);
+    color: var(--primaryTextColor);
 }
 .social-contect2{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: #00f;
-    color: aliceblue;
+    background: var( --bg);
+    color: var(--primaryTextColor);
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -115,10 +115,10 @@ a:hover{
 
 }
 .social-contect2:hover a{
-    color: rgb(251, 252, 252);
+    color: var(--primaryTextColor);
 }
 .facebook{
-    background: rgb(69, 69, 248);
+    background: #00f;
 }
 .instagram{
     background: rgb(201, 7, 94);
@@ -167,13 +167,13 @@ a:hover{
 }
 .schoolname h1{
     font-size: 60px;
-    color: #00f;
+    color: var(--secondaryColor);
     text-align: center;
     padding-bottom: 10px;
 }
 .schoolname h2{
     font-size: 40px;
-    color: #f00;
+    color: var(--primaryColor);
     text-align: center;
     line-height: 0%;
 }
@@ -183,7 +183,7 @@ a:hover{
 .manubar{
     height: 50px;
     width: 100%;
-    background: rgb(59, 80, 238);
+    background: var(--primaryColor);
     border-top: 0.5px;
     border-bottom: 0.5px;
     display: flex;
@@ -196,11 +196,11 @@ ul{
 }
 li{
     float: left;
-    color: #00f;
+    color: var(--primaryColor);
 }
 li:hover{
     background: #fff;
-    color: rgb(73, 93, 246);
+    color: var(--primaryColor);
 }
 .link{
     padding: 15px 25px;
@@ -208,14 +208,14 @@ li:hover{
 }
 li:hover a{
     background: #fff;
-    color: rgb(73, 93, 246);
+    color: var(--primaryColor);
 }
 .home{
     background: #fff;
-    color: rgb(73, 93, 246);
+    color: var(--primaryColor);
 }
 .home{
-    border-right: 0.5px solid rgb(73, 93, 246) !important;
+    border-right: 0.1px solid var(--primaryColor);
 }
 
 /* ------------------------Manu Box Start----------------------------------- */
@@ -249,15 +249,13 @@ li:hover a{
 
 /*----------------------------slider Section start-----------------------------------------*/
 .slider-section{
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     margin: none;
 }
 .slide{
     height: 100%;
-    width: 100%;
-    background-color: #7682f4;
-    
+    width: 100%;    
 }
 .slide img{
     height: 100%;
@@ -294,18 +292,16 @@ b{
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------------footer Section Start------------------------------------------------*/
 footer{
-    padding: 60px 150px 0px 150px;
-    background-color: aqua;
-}
-.footer-box{
-    min-height: 150px;
-    display: flex;
+    min-height: 500px;
     width: 100%;
-    justify-content: space-between;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
+    padding-top: 100px;
 }
+
 .footer-box::after{
     content: " ";
     position: absolute;
@@ -550,13 +546,11 @@ footer{
     }
     .schoolname h1{
         font-size: 40px;
-        color: #00f;
         text-align: center;
         
     }
     .schoolname h2{
         font-size: 25px;
-        color: #f00;
         text-align: center;
         line-height: 0%;
     }
