@@ -92,73 +92,50 @@
     <!--  -->
     <!------------------------------footer Section Start---------------------------------------->
     <footer>
-        <div class="container">
-                <div class="footer-content-box">
-                    <h2>
-                        About 
-                    </h2>
-                    <p class="para-educator">Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to
-                        Home
-                    </p>
-                    <ul class="footer-contact">
-                        <li>
-                            <a href="#"><span><i class="fa-solid fa-phone"></i></span>1-232-432-4432</a>
-                        </li>
-                        <li>
-                            <a href="#"><span><i class="fa-regular fa-clock"></i> </span>Mon - Sat 8.00 - 18.00</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-content-box">
-                    <h2>Latest News</h2>
-                    <ul class="footer-latest-new">
-                        <li><a href="#">Graduate Admissions</a></li>
-                        <p>by Craig Murphy</p>
-                        <li><a href="#">Continuing Education</a></li>
-                        <p>by Craig Murphy</p>
-                        <li><a href="#">Current Students</a></li>
-                        <p>by Craig Murphy</p>
-                    </ul>
-                </div>
-                <div class="footer-content-box">
-                    <h2>Useful Links</h2>
-                    <ul class="useful-links">
-                        <li><a href="#">Popular Courses</a></li>
-                        <li><a href="#">Forums</a></li>
-                        <li><a href="#">Our Teachers</a></li>
-                        <li><a href="#">Upcoming Events</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-content-box">
-                    <h2>Flexible learning</h2>
-                    <ul class="footer-map">
-                        <li><a href="#">
-                                <img src="images/footer-map-2.png" class="footer-img" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container1">
+            <div class="footer-content-box">
+                <h2 class="footer-headerTag">About</h2>
+                <p class="para-educator">Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer toHome</p>
+                <ul class="footer-contact">
+                    <li class="footer-contact-list">
+                        <a href="#"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;1-232-432-4432</a>
+                    </li>
+                    <li class="footer-contact-list">
+                        <a href="#"><i class="fa-regular fa-clock"></i> &nbsp;&nbsp;Mon - Sat 8:00 - 18:00</a>
+                    </li>
+                </ul>
             </div>
-            <div class="copy-right">
-                <div class="copy-right-box">
-                    <span class="all-right">© 2017 QODE INTERACTIVE, ALL RIGHTS RESERVED</span>
-                </div>
-                <div class="copy-right-box">
-                    <span><a href="#">CALL +44 300 303 0266 </a></span>
-                        <span>&nbsp;&nbsp;FOLLOW US</span>
-                    
-                </div>
-                <div class="copy-right-box">
-                    <ul class="copy-right-logo">
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
+            <div class="footer-content-box">
+                <h2 class="footer-headerTag">Latest News</h2>
+                <ul class="footer-contact">
+                    <li class="footer-contact-list"><a href="#">Graduate Admissions</a></li>
+                    <li class="footer-contact-list">Admission open</li>
+                    <li class="footer-contact-list"><a href="#">Continuing Education</a></li>
+                    <li class="footer-contact-list">by Craig Murphy</li>
+                    <li class="footer-contact-list"><a href="#">Current Students</a></li>
+                    <li class="footer-contact-list">by Craig Murphy</li>
+                </ul>
             </div>
-        </div>    
+            <div class="footer-content-box">
+                <h2 class="footer-headerTag">Useful Links</h2>
+                <ul class="footer-contact">
+                    <li class="footer-contact-list"><a href="#">Popular Courses</a></li>
+                    <li class="footer-contact-list"><a href="#">Graduate Admissions</a></li>
+                    <li class="footer-contact-list"><a href="#">Our Teachers</a></li>
+                    <li class="footer-contact-list"><a href="#">Upcoming Events New</a></li>
+                    <li class="footer-contact-list"><a href="#"> Contact-Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-content-box">
+                <h2 class="footer-headerTag">Flexible learning</h2>
+                <ul class="footer-contact">
+                    <li class="footer-contact-list"><a href="#"><img src="images/footer-map-2.png" class="footer-img" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container horigentalTag">
+            
+        </div>
     </footer>
 <!-- -----------------------------------------Footer Section End---------------------------------------- -->
     <script src="js/all.min.js"></script>

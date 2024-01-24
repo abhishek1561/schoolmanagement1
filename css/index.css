@@ -130,10 +130,10 @@ a:hover{
 
 /* -----------------------Logo Section Start------------------------------------- */
 .container{
-    height: 160px;
+    min-height: 50px;
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -291,77 +291,57 @@ b{
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------------footer Section Start------------------------------------------------*/
+.container1{
+    min-height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
 footer{
     min-height: 500px;
     width: 100%;
-    background-color: aqua;
+    background: var(--primaryColor);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 100px;
-}
-
-.footer-box::after{
-    content: " ";
-    position: absolute;
-    height: .1%;
-    width: 100%;
-    background-color: #000;
-    bottom: 0;
-    right: 0;
+    color: var(--primaryTextColor);
 }
 .footer-content-box{
-    min-height: 310px;
-    width: 23%;
-
+    height: 310px;
+    width: 24%;
+    padding: 10px;
+    margin: 0.20%;
 }
-.footer-content-box .footer-img{
-    height: 100%;
-    width: 100%;
-    transition: .2s;
-    margin-top: 30px;
-}
-.footer-content-box .footer-img:hover{
-    transform: scale(1.05);
+.footer-content-box .footer-headerTag{
+    font-size: 35px;
+    margin-bottom: 10%;
 }
 .footer-content-box .para-educator{
-    margin: 8% 0% 16% 0%;
-    line-height: 24px;
+    margin: 0% 0% 8% 0%;
+    line-height: 25px;
+    color: var(--secondaryTextColor);
 }
-.footer-content-box .footer-contact li{
+.footer-content-box .footer-contact .footer-contact-list{
     list-style: none;
-    margin: 5% 0%;
+    margin: 3% 0%;
+    letter-spacing: 1px;
+    color: var(--secondaryTextColor);
 }
-.footer-content-box .footer-contact li a{
-    text-decoration: none;
-    color:#000;   
+.footer-content-box .footer-contact .footer-contact-list:hover{
+    background: none;
+}
+.footer-content-box .footer-contact .footer-contact-list a{
+    text-decoration: none;  
     font-weight: bold;
+    background: var(--primaryColor);
+    color: var(--secondaryTextColor);
 }
-.footer-content-box .footer-contact li a span{
-    margin-right: 5%;
-}
-.footer-latest-new li{
-    list-style: none;
-    margin: 8% 0% 2% 0%;
-    
-}
-.footer-latest-new p{
-    font-size: 14px;
-}
-.footer-latest-new li a{
-    text-decoration: none;
-    color:#000;
-    font-weight: bold;
-}
-.useful-links li{
-    list-style: none;
-    margin: 8% 0% 0% 0%;
-}
-.useful-links li a{
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
+.footer-content-box .footer-contact .footer-contact-list a:hover{
+    color: var(--primaryTextColor);
 }
 .footer-map li{
     list-style: none;
@@ -369,46 +349,17 @@ footer{
 .footer-map li a{
     text-decoration: none;
 }
-.copy-right{
-    padding: 20px 0px;
+.footer-content-box .footer-img{
+    height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    transition: .2s;
 }
-.copy-right-box{
-    min-height: 20px;
-    min-width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-content-box .footer-img:hover{
+    transform: scale(1.05);
+    background: var(--primaryColor);
 }
-.copy-right-box .all-right{
-    font-size: 12px;
-    font-weight: bold;
-}
-.copy-right-box a{
-    text-decoration: none;
-    color: #000;
-    
-    font-size: 12px;
-    font-weight: bold;
-}
-.copy-right-box p{
-    margin: 0% 5% 0% 0%;
-    font-size: 12px;
-    font-weight: bold;
-}
-.copy-right-logo{
-    display: flex;
-}
-.copy-right-logo li{
-    list-style: none;
-    padding-left: 15%;
-}
-.copy-right-logo li a{
-    text-decoration: none;
+.horigentalTag{
+    border-top: 2px solid var(--nav);
 }
 
 
@@ -418,87 +369,9 @@ footer{
 
 
 
-@media screen and (max-width:1024px)
-{
-    footer
-    {
-        padding: 20px 70px;
-    }
-    .footer-content-box
-    {
-        margin-bottom: 3%;
-        width: 31%;
 
-    }
-    .footer-box::after{
-        content: " ";
-        position: absolute;
-        height: .1%;
-        width: 100%;
-        background-color: #000;
-        bottom: 20px;
-        right: 0;
-    }
-    
-}
-@media screen and (max-width:768px)
-{
-    footer
-    {
-        padding: 20px 80px;
-    }
-    .footer-content-box{
-        
-        margin-bottom: 3%;
-        width: 80%;
-    }
-    .footer-content-box:nth-child(2){
-        padding-left: 60px;
-    }.footer-content-box:nth-child(3){
-        padding-left: 60px;
-    }
-    .footer-box::after{
-        content: " ";
-        position: absolute;
-        height: .1%;
-        width: 100%;
-        background-color: #000;
-        bottom: 10px;
-        right: 0;
-    }
-    .copy-right-box{
-        width: 100%;
-        margin: 10px 0px;
-    }
-    .copy-right-box p{
-        margin: 0% 5% 0% 0%;
-    }
-    .copy-right-box a{
-        margin: 0%;
-    }
-    
-}
-@media screen and (max-width:600px)
-{
-    footer
-    {
-        padding: 20px 60px;
-    }
-    .footer-content-box
-    {
-        margin-bottom: 5%;
-        width: 98%;
-    }
-    .footer-box::after{
-        content: " ";
-        position: absolute;
-        height: .01%;
-        width: 100%;
-        background-color: #000;
-        bottom: 10px;
-        right: 0;
-    }
-}
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------Media Query Code Start------------------------------ */
 @media screen and (max-width: 1224px){
@@ -511,6 +384,12 @@ footer{
         padding: 15px 10px;
         font-size: 14px;
     }
+    .footer-content-box{
+        width: 32%;
+    }
+    .footer-content-box:nth-child(4){
+        width: 49%;
+    } 
 }
 @media screen and (max-width: 1024px){
     .link{
@@ -538,6 +417,19 @@ footer{
     .manudiv{
         display: flex;
     }
+    .footer-content-box{
+        width: 49%;
+    }
+    .footer-content-box .footer-contact .footer-contact-list{
+        display: grid;
+        visibility: visible;
+    }
+    .footer-content-box .footer-contact .footer-contact-list a{
+        visibility: visible;
+    }
+    .footer-content-box:nth-child(4){
+        width: 80%;
+    } 
 }
 @media screen and (max-width: 860px){
     .schoolname{
